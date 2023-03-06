@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'prettier'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -18,6 +19,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'jsx-quotes': [2, 'prefer-double'],
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
